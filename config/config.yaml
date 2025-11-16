@@ -1,0 +1,21 @@
+nitter_instances:
+  - https://nitter.x86-64-unknown-linux-gnu.zip
+  - https://nitter.kavin.rocks
+  - https://nitter.space
+  - https://nitter.net
+  - https://nitter.poast.org
+  - https://xcancel.com
+
+scraper:
+  delay: 15
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+
+users_to_scrape:
+  - "nasa"
+  - "elonmusk"
+  - "CNN"
+
+paths:
+  raw_data: "data/raw/tweets.csv"
+  processed_data: "data/processed/cleaned_tweets.csv"
+  results: "data/results/"
